@@ -1,0 +1,2 @@
+# Dedicated UniSat environment: Python 3.13.16.
+playwright==1.63.0

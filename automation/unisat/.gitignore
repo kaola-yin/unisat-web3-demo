@@ -1,0 +1,15 @@
+# Local wallet profile, Python runtimes, caches, and reports.
+/.browser/
+/.venv*/
+/reports/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+
+# Each operator supplies their own browser paths and wallet configuration.
+/config/unisat_browser.json
+.env
+.env.*
+!.env.example

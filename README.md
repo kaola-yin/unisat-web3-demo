@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Wallet connection checks (Python)
+
+The [Python Playwright runner](automation/unisat/README.md) provides semi-automated
+connection checks against https://demo.unisat.io/. An operator installs and unlocks
+the UniSat extension and approves the connection; the runner validates wallet
+information and the displayed address, then writes a local JSON report.
+
 ## Available Scripts
 
 In the project directory, you can run:
